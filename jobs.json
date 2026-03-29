@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "6f478f77-cc6b-4843-b569-98252720d033",
+      "agentId": "main",
+      "name": "daily-memory-flush",
+      "description": "每天23:55自动总结当日对话并写入memory日志",
+      "enabled": true,
+      "createdAtMs": 1774699643494,
+      "updatedAtMs": 1774713377864,
+      "schedule": {
+        "kind": "cron",
+        "expr": "55 23 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "请执行以下任务：\n1. 通过 feishu_im_user_get_messages 工具，获取你与 ou_2441d0de63b7a24598c42ea297608b9a 今天（当前日期）的所有私聊消息\n2. 用 AI 总结今日关键讨论内容（保留要点，删掉重复）\n3. 将总结写入文件 /root/.openclaw/workspace/memory/2026-03-28.md（格式：## 日期 总结内容）\n4. 回复 DONE",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774799700000,
+        "lastRunAtMs": 1774713300017,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 77847,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 3,
+        "lastError": "AxiosError: Request failed with status code 400"
+      }
+    }
+  ]
+}

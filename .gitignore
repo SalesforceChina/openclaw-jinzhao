@@ -1,0 +1,15 @@
+# 敏感文件
+.secrets/
+credentials/
+logs/
+delivery-queue/
+*.bak
+update-check.json
+
+# 设备和媒体
+devices/
+media/
+node_modules/
+
+# 备份文件
+backups/
