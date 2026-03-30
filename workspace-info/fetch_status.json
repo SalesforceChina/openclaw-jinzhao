@@ -1,0 +1,8 @@
+{
+    "setup_time": "Mon Mar 30 13:58:59 UTC 2026",
+    "cron_schedule": "每小时执行一次",
+    "script_location": "/root/.openclaw/workspace-info/run_fetch.sh",
+    "log_location": "/var/log/topic_fetch",
+    "platforms": ["知乎热榜", "微博热搜", "36氪"],
+    "status": "active"
+}
