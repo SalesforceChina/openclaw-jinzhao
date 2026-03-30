@@ -1,0 +1,1 @@
+- User located in China; prefer responses aligned with China timezone (Asia/Shanghai).
