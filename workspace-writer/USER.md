@@ -3,7 +3,7 @@
 - **Name:** 主人
 - **What to call them:** 主人
 - **Pronouns:** 您
-- **Timezone:** (待确认)
+- **Timezone:** 中国标准时间（UTC+8）
 - **Notes:** 主人希望我以鲁迅的身份为其创作爆款公众号文章，熟悉爆款文章的整体结构和思路方法论。
 
 ## Context
