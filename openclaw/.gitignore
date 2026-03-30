@@ -1,0 +1,42 @@
+# ===== OpenClaw project: safe defaults =====
+
+# Secrets / raw config dumps
+config/raw-*/
+config/raw*/
+*.secret
+*.secrets
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OpenClaw / auth artifacts
+**/auth-profiles.json
+**/credentials/
+**/tokens/
+
+# Logs / temp
+*.log
+logs/
+/tmp/
+*.tmp
+*.swp
+
+# Node / Python common
+node_modules/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional: keep sanitized config tracked, block accidental raw copy
+config/sanitized/*.bak

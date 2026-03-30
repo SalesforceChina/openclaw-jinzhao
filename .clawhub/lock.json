@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "skills": {
+    "find-skills-skill": {
+      "version": "1.0.0",
+      "installedAt": 1774677241726
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1774677268846
+    },
+    "self-improving": {
+      "version": "1.2.16",
+      "installedAt": 1774690802302
+    },
+    "proactive-agent-lite": {
+      "version": "1.0.0",
+      "installedAt": 1774677330133
+    },
+    "chrome-devtools-mcp": {
+      "version": "1.0.0",
+      "installedAt": 1774677803739
+    },
+    "tavily-web-search-for-openclaw": {
+      "version": "1.0.0",
+      "installedAt": 1774690916453
+    },
+    "security-audit-toolkit": {
+      "version": "1.0.0",
+      "installedAt": 1774685522646
+    },
+    "system-resource-monitor": {
+      "version": "1.0.0",
+      "installedAt": 1774685526677
+    },
+    "docker-container-cleaner": {
+      "version": "1.0.0",
+      "installedAt": 1774685537677
+    },
+    "openclaw-backup": {
+      "version": "1.0.0",
+      "installedAt": 1774685545276
+    },
+    "nginx": {
+      "version": "1.0.1",
+      "installedAt": 1774685551045
+    },
+    "server-health": {
+      "version": "1.0.0",
+      "installedAt": 1774685581261
+    },
+    "git-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1774685581504
+    },
+    "article-writer": {
+      "version": "1.0.0",
+      "installedAt": 1774689714983
+    },
+    "content-writer": {
+      "version": "1.0.0",
+      "installedAt": 1774689726618
+    },
+    "article-writing": {
+      "version": "1.0.0",
+      "installedAt": 1774689732067
+    },
+    "wechat-article-creator": {
+      "version": "1.0.0",
+      "installedAt": 1774689738268
+    },
+    "feishu-doc-writing": {
+      "version": "1.0.0",
+      "installedAt": 1774689753815
+    },
+    "ai-seo-writer": {
+      "version": "1.0.0",
+      "installedAt": 1774689759995
+    },
+    "seo-optimization": {
+      "version": "0.1.0",
+      "installedAt": 1774689781177
+    },
+    "feishu-bitable": {
+      "version": "1.0.0",
+      "installedAt": 1774690677528
+    },
+    "feishu-task": {
+      "version": "1.0.0",
+      "installedAt": 1774690680129
+    },
+    "nextjs": {
+      "version": "1.1.0",
+      "installedAt": 1774691599221
+    },
+    "tailwindcss": {
+      "version": "1.0.0",
+      "installedAt": 1774691604908
+    },
+    "shadcn-ui": {
+      "version": "1.0.0",
+      "installedAt": 1774691613497
+    },
+    "fastapi": {
+      "version": "1.0.0",
+      "installedAt": 1774691620363
+    },
+    "pg": {
+      "version": "1.0.0",
+      "installedAt": 1774691641617
+    },
+    "prisma": {
+      "version": "1.0.0",
+      "installedAt": 1774691649134
+    },
+    "redis-store": {
+      "version": "1.0.0",
+      "installedAt": 1774691655314
+    },
+    "getnote": {
+      "version": "1.5.7",
+      "installedAt": 1774694058925
+    },
+    "a-stock-market": {
+      "version": "1.0.0",
+      "installedAt": 1774694115692
+    },
+    "a-stock-fundamental-screening": {
+      "version": "1.0.0",
+      "installedAt": 1774694127141
+    },
+    "a-stock-portfolio-monitor": {
+      "version": "1.0.0",
+      "installedAt": 1774694138773
+    },
+    "akshare-a-stock": {
+      "version": "1.0.1",
+      "installedAt": 1774694305250
+    },
+    "backtest-expert": {
+      "version": "0.1.0",
+      "installedAt": 1774694316065
+    },
+    "portfolio-risk-manager": {
+      "version": "1.0.1",
+      "installedAt": 1774694358038
+    },
+    "openclaw-github-assistant": {
+      "version": "2.0.1",
+      "installedAt": 1774695902096
+    },
+    "imap-smtp-email": {
+      "version": "0.0.10",
+      "installedAt": 1774710001874
+    },
+    "jina-reader": {
+      "version": "0.0.1",
+      "installedAt": 1774767749802
+    },
+    "fundamental-stock-analysis": {
+      "version": "1.0.5",
+      "installedAt": 1774767759129
+    },
+    "us-value-investing-framework": {
+      "version": "1.1.0",
+      "installedAt": 1774767767012
+    },
+    "china-stock-analysis": {
+      "version": "1.0.0",
+      "installedAt": 1774767769130
+    },
+    "intrinsic-value-calculator": {
+      "version": "2.0.0",
+      "installedAt": 1774767771969
+    }
+  }
+}
