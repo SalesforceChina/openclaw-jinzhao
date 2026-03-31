@@ -2,8 +2,8 @@
 
 _Learn about the person you're helping. Update this as you go._
 
-- **Name:**
-- **What to call them:**
+- **Name:** 主人
+- **What to call them:** 主人
 - **Pronouns:** _(optional)_
 - **Timezone:** Asia/Shanghai (UTC+8)
 - **Notes:** Based in China; prefer replies aligned with China local time context.
