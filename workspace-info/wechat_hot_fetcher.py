@@ -43,30 +43,72 @@ class WechatHotFetcher:
                 html = response.text
                 
                 # 解析HTML获取文章数据
-                # 今日热榜页面结构：<a href="链接">标题</a> 热度
-                pattern = r'<a[^>]*href="(https://mp\.weixin\.qq\.com/[^"]*)"[^>]*>([^<]+)</a>\s*([\d\.万]+)'
-                matches = re.findall(pattern, html)
+                # 今日热榜页面结构：表格形式
+                # <td><a href="链接">标题</a></td>
+                # <td class="ws">热度值</td>
                 
-                for i, (link, title, hotness_str) in enumerate(matches[:limit]):
-                    # 清理数据
-                    title = title.strip()
-                    hotness = self._parse_hotness(hotness_str)
+                # 方法1：使用更精确的正则匹配整个表格行
+                # 匹配模式：<td><a href="链接">标题</a></td>\s*<td[^>]*>热度值</td>
+                row_pattern = r'<td><a[^>]*href="(https://mp\.weixin\.qq\.com/[^"]*)"[^>]*>([^<]+)</a></td>\s*<td[^>]*>([\d\.万]+)</td>'
+                row_matches = re.findall(row_pattern, html)
+                
+                logger.info(f"使用行模式找到 {len(row_matches)} 条完整记录")
+                
+                if row_matches:
+                    # 使用行模式匹配的结果
+                    for i, (link, title, hotness_str) in enumerate(row_matches[:limit]):
+                        title = title.strip()
+                        hotness = self._parse_hotness(hotness_str)
+                        
+                        topics.append({
+                            "选题标题": title,
+                            "来源平台": "微信公众号",
+                            "热度指数": hotness,
+                            "链接": {
+                                "link": link,
+                                "text": "查看文章",
+                                "type": "url"
+                            },
+                            "发布时间": int(time.time() * 1000),
+                            "内容类型": self._detect_category(title),
+                            "状态": "待分析",
+                            "备注": "微信公众号热榜（今日热榜）",
+                            "关键词": self._extract_keywords(title)
+                        })
+                else:
+                    # 备用方法：分别匹配链接和热度值
+                    link_pattern = r'<td><a[^>]*href="(https://mp\.weixin\.qq\.com/[^"]*)"[^>]*>([^<]+)</a></td>'
+                    link_matches = re.findall(link_pattern, html)
                     
-                    topics.append({
-                        "选题标题": title,
-                        "来源平台": "微信公众号",
-                        "热度指数": hotness,
-                        "链接": {
-                            "link": link,
-                            "text": "查看文章",
-                            "type": "url"
-                        },
-                        "发布时间": int(time.time() * 1000),
-                        "内容类型": self._detect_category(title),
-                        "状态": "待分析",
-                        "备注": "微信公众号热榜（今日热榜）",
-                        "关键词": self._extract_keywords(title)
-                    })
+                    hotness_pattern = r'<td[^>]*>([\d\.万]+)</td>'
+                    hotness_matches = re.findall(hotness_pattern, html)
+                    
+                    logger.info(f"备用方法：找到 {len(link_matches)} 个链接，{len(hotness_matches)} 个热度值")
+                    
+                    for i, (link, title) in enumerate(link_matches[:limit]):
+                        title = title.strip()
+                        
+                        # 获取热度值（假设顺序对应）
+                        hotness = 10000  # 默认值
+                        if i < len(hotness_matches):
+                            hotness_str = hotness_matches[i]
+                            hotness = self._parse_hotness(hotness_str)
+                        
+                        topics.append({
+                            "选题标题": title,
+                            "来源平台": "微信公众号",
+                            "热度指数": hotness,
+                            "链接": {
+                                "link": link,
+                                "text": "查看文章",
+                                "type": "url"
+                            },
+                            "发布时间": int(time.time() * 1000),
+                            "内容类型": self._detect_category(title),
+                            "状态": "待分析",
+                            "备注": "微信公众号热榜（今日热榜）",
+                            "关键词": self._extract_keywords(title)
+                        })
         
         except Exception as e:
             logger.error(f"❌ 微信公众号热榜抓取失败: {e}")
@@ -105,28 +147,65 @@ class WechatHotFetcher:
                 html = response.text
                 
                 # 解析HTML
-                pattern = r'<a[^>]*href="(https://mp\.weixin\.qq\.com/[^"]*)"[^>]*>([^<]+)</a>\s*([\d\.万]+)'
-                matches = re.findall(pattern, html)
+                # 使用行模式匹配
+                row_pattern = r'<td><a[^>]*href="(https://mp\.weixin\.qq\.com/[^"]*)"[^>]*>([^<]+)</a></td>\s*<td[^>]*>([\d\.万]+)</td>'
+                row_matches = re.findall(row_pattern, html)
                 
-                for i, (link, title, hotness_str) in enumerate(matches[:limit]):
-                    title = title.strip()
-                    hotness = self._parse_hotness(hotness_str)
+                if row_matches:
+                    logger.info(f"使用行模式找到 {len(row_matches)} 条{category}记录")
                     
-                    topics.append({
-                        "选题标题": title,
-                        "来源平台": f"微信公众号({category})",
-                        "热度指数": hotness,
-                        "链接": {
-                            "link": link,
-                            "text": "查看文章",
-                            "type": "url"
-                        },
-                        "发布时间": int(time.time() * 1000),
-                        "内容类型": category,
-                        "状态": "待分析",
-                        "备注": f"微信公众号{category}热榜",
-                        "关键词": [category, "微信公众号", "热榜"]
-                    })
+                    for i, (link, title, hotness_str) in enumerate(row_matches[:limit]):
+                        title = title.strip()
+                        hotness = self._parse_hotness(hotness_str)
+                        
+                        topics.append({
+                            "选题标题": title,
+                            "来源平台": f"微信公众号({category})",
+                            "热度指数": hotness,
+                            "链接": {
+                                "link": link,
+                                "text": "查看文章",
+                                "type": "url"
+                            },
+                            "发布时间": int(time.time() * 1000),
+                            "内容类型": category,
+                            "状态": "待分析",
+                            "备注": f"微信公众号{category}热榜",
+                            "关键词": [category, "微信公众号", "热榜"]
+                        })
+                else:
+                    # 备用方法
+                    link_pattern = r'<td><a[^>]*href="(https://mp\.weixin\.qq\.com/[^"]*)"[^>]*>([^<]+)</a></td>'
+                    link_matches = re.findall(link_pattern, html)
+                    
+                    hotness_pattern = r'<td[^>]*>([\d\.万]+)</td>'
+                    hotness_matches = re.findall(hotness_pattern, html)
+                    
+                    logger.info(f"备用方法：找到 {len(link_matches)} 个{category}链接，{len(hotness_matches)} 个热度值")
+                    
+                    for i, (link, title) in enumerate(link_matches[:limit]):
+                        title = title.strip()
+                        
+                        hotness = 10000  # 默认值
+                        if i < len(hotness_matches):
+                            hotness_str = hotness_matches[i]
+                            hotness = self._parse_hotness(hotness_str)
+                        
+                        topics.append({
+                            "选题标题": title,
+                            "来源平台": f"微信公众号({category})",
+                            "热度指数": hotness,
+                            "链接": {
+                                "link": link,
+                                "text": "查看文章",
+                                "type": "url"
+                            },
+                            "发布时间": int(time.time() * 1000),
+                            "内容类型": category,
+                            "状态": "待分析",
+                            "备注": f"微信公众号{category}热榜",
+                            "关键词": [category, "微信公众号", "热榜"]
+                        })
         
         except Exception as e:
             logger.error(f"❌ 微信公众号{category}热榜抓取失败: {e}")
