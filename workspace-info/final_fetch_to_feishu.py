@@ -33,13 +33,6 @@ def get_mock_data():
             "OpenAI发布新模型",
             "数字化转型趋势分析"
         ],
-        "微博热搜": [
-            "#AI技术发展#",
-            "#科技创新#", 
-            "#数字化转型#",
-            "#内容创作#",
-            "#自媒体运营#"
-        ],
         "36氪": [
             "SaaS行业2024年趋势分析",
             "AI创业公司的融资现状",
@@ -56,28 +49,24 @@ def create_topic_record(title: str, platform: str, index: int) -> dict:
     # 根据平台设置内容类型
     content_type_map = {
         "知乎热榜": "热点",
-        "微博热搜": "热点",
         "36氪": "科技"
     }
     
     # 根据平台设置关键词
     keyword_map = {
         "知乎热榜": ["知乎", "热点", "讨论"],
-        "微博热搜": ["微博", "热搜", "社会热点"],
         "36氪": ["36氪", "科技", "商业"]
     }
     
     # 热度计算
     heat_map = {
         "知乎热榜": 100 - index * 10,
-        "微博热搜": 100 - index * 12,
         "36氪": 95 - index * 8
     }
     
     # URL映射
     url_map = {
         "知乎热榜": f"https://www.zhihu.com/question/{10000 + index}",
-        "微博热搜": f"https://s.weibo.com/weibo?q={title.replace('#', '').replace(' ', '')}",
         "36氪": f"https://36kr.com/p/{1000 + index}"
     }
     
@@ -85,7 +74,7 @@ def create_topic_record(title: str, platform: str, index: int) -> dict:
         "选题标题": title,
         "来源平台": platform,
         "热度指数": heat_map[platform],
-        "链接": {"link": url_map[platform], "text": "查看详情"},
+        "链接": {"link": url_map[platform], "text": "查看详情", "type": "url"},
         "发布时间": int(time.time() * 1000),
         "内容类型": content_type_map[platform],
         "状态": "待分析",
