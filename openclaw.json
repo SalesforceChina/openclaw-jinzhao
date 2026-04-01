@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.24",
+    "lastTouchedAt": "2026-03-31T03:11:12.102Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-30T01:40:20.568Z",
+    "lastRunVersion": "2026.3.24",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "auth": "***",
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "minimax": {
+        "baseUrl": "https://api.minimaxi.com/anthropic",
+        "api": "anthropic-messages",
+        "authHeader": "***",
+        "models": [
+          {
+            "id": "MiniMax-M2.7",
+            "name": "MiniMax M2.7",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0.3,
+              "output": 1.2,
+              "cacheRead": 0.06,
+              "cacheWrite": 0.375
+            },
+            "contextWindow": 204800,
+            "maxTokens": "***"
+          }
+        ]
+      },
+      "deepseek": {
+        "baseUrl": "https://api.deepseek.com",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-chat",
+            "name": "DeepSeek Chat",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0.28,
+              "output": 0.42,
+              "cacheRead": 0.028,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": "***",
+            "compat": {
+              "supportsUsageInStreaming": true
+            }
+          },
+          {
+            "id": "deepseek-reasoner",
+            "name": "DeepSeek Reasoner",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0.28,
+              "output": 0.42,
+              "cacheRead": 0.028,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": "***",
+            "compat": {
+              "supportsUsageInStreaming": true
+            }
+          }
+        ]
+      },
+      "aiapi": {
+        "baseUrl": "https://aiapi.aixia.tech",
+        "apiKey": "sk-J*******************************************dTGM",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          },
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "claude-sonnet-4-6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          }
+        ]
+      },
+      "mydamoxing": {
+        "baseUrl": "https://mydamoxing.cn",
+        "apiKey": "sk-a*******************************************3NtV",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "gemini-3.1-flash-image",
+            "name": "gemini-3.1-flash-image",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          }
+        ]
+      },
+      "zhugeliang": {
+        "baseUrl": "https://aiapi.aixia.tech",
+        "apiKey": "sk-E*******************************************V0LW",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          },
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "claude-sonnet-4-6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          }
+        ]
+      },
+      "fuermosi": {
+        "baseUrl": "https://aiapi.aixia.tech",
+        "apiKey": "sk-W*******************************************LkXF",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          },
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "claude-sonnet-4-6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          }
+        ]
+      },
+      "kevin": {
+        "baseUrl": "https://aiapi.aixia.tech",
+        "apiKey": "sk-2*******************************************7bVF",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          },
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "claude-sonnet-4-6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          }
+        ]
+      },
+      "finance": {
+        "baseUrl": "https://aiapi.aixia.tech",
+        "apiKey": "sk-o*******************************************l47f",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          },
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "claude-sonnet-4-6",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": "***"
+          }
+        ]
+      },
+      "seedream": {
+        "baseUrl": "https://ark.cn-beijing.volces.com/api/v3",
+        "apiKey": "c97f****************************f41d",
+        "api": "openai-images",
+        "models": [
+          {
+            "id": "doubao-seedream-4-5-251128",
+            "name": "豆包Seedream 4.5",
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 10000,
+            "maxTokens": "***"
+          },
+          {
+            "id": "doubao-seed-2-0-pro-260215",
+            "name": "豆包Seedream 2.0 Pro",
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 10000,
+            "maxTokens": "***"
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "minimax/MiniMax-M2.7",
+        "fallbacks": [
+          "deepseek/deepseek-chat",
+          "deepseek/deepseek-reasoner",
+          "aiapi/claude-sonnet-4-6",
+          "aiapi/claude-opus-4-6",
+          "mydamoxing/gemini-3.1-flash-image",
+          "seedream/doubao-seedream-4-5-251128",
+          "minimax/MiniMax-M2.7",
+          "minimax/MiniMax-M2.7-highspeed"
+        ]
+      },
+      "imageModel": "seedream/doubao-seedream-4-5-251128",
+      "models": {
+        "minimax/MiniMax-M2.7": {
+          "alias": "Minimax"
+        },
+        "deepseek/deepseek-chat": {
+          "alias": "DeepSeek"
+        },
+        "deepseek/deepseek-reasoner": {},
+        "aiapi/claude-sonnet-4-6": {},
+        "aiapi/claude-opus-4-6": {},
+        "mydamoxing/gemini-3.1-flash-image": {
+          "alias": "Mydamoxing图像生成"
+        },
+        "seedream/doubao-seedream-4-5-251128": {
+          "alias": "豆包Seedream"
+        },
+        "zhugeliang/claude-opus-4-6": {
+          "alias": "诸葛孔明"
+        },
+        "zhugeliang/claude-sonnet-4-6": {},
+        "kevin/claude-opus-4-6": {
+          "alias": "凯文"
+        },
+        "finance/claude-opus-4-6": {
+          "alias": "巴菲特"
+        },
+        "minimax/MiniMax-M2.7-highspeed": {}
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      }
+    },
+    "list": [
+      {
+        "id": "backup",
+        "default": true,
+        "name": "刘备",
+        "workspace": "/root/.openclaw/workspace-backup",
+        "agentDir": "/root/.openclaw/agents/backup"
+      },
+      {
+        "id": "main",
+        "name": "诸葛亮",
+        "workspace": "/root/.openclaw/workspace-main",
+        "agentDir": "/root/.openclaw/agents/main"
+      },
+      {
+        "id": "writer",
+        "name": "鲁迅",
+        "workspace": "/root/.openclaw/workspace-writer",
+        "agentDir": "/root/.openclaw/agents/writer"
+      },
+      {
+        "id": "it",
+        "name": "比尔·盖茨",
+        "workspace": "/root/.openclaw/workspace-it",
+        "agentDir": "/root/.openclaw/agents/it"
+      },
+      {
+        "id": "person",
+        "name": "柳比歇夫",
+        "workspace": "/root/.openclaw/workspace-person",
+        "agentDir": "/root/.openclaw/agents/person"
+      },
+      {
+        "id": "finance",
+        "name": "巴菲特",
+        "workspace": "/root/.openclaw/workspace-finance",
+        "agentDir": "/root/.openclaw/agents/finance"
+      },
+      {
+        "id": "design",
+        "name": "宋徽宗",
+        "workspace": "/root/.openclaw/workspace-design",
+        "agentDir": "/root/.openclaw/agents/design"
+      },
+      {
+        "id": "marketing",
+        "name": "奥格威",
+        "workspace": "/root/.openclaw/workspace-marketing",
+        "agentDir": "/root/.openclaw/agents/marketing"
+      },
+      {
+        "id": "sales",
+        "name": "罗永浩",
+        "workspace": "/root/.openclaw/workspace-sales",
+        "agentDir": "/root/.openclaw/agents/sales"
+      },
+      {
+        "id": "product",
+        "name": "乔布斯",
+        "workspace": "/root/.openclaw/workspace-product",
+        "agentDir": "/root/.openclaw/agents/product"
+      },
+      {
+        "id": "mentor",
+        "name": "王阳明",
+        "workspace": "/root/.openclaw/workspace-mentor",
+        "agentDir": "/root/.openclaw/agents/mentor"
+      },
+      {
+        "id": "tech",
+        "name": "凯文·凯利",
+        "workspace": "/root/.openclaw/workspace-tech",
+        "agentDir": "/root/.openclaw/agents/tech",
+        "model": {
+          "primary": "kevin/claude-opus-4-6"
+        }
+      },
+      {
+        "id": "info",
+        "name": "福尔摩斯",
+        "workspace": "/root/.openclaw/workspace-info",
+        "agentDir": "/root/.openclaw/agents/info",
+        "model": {
+          "primary": "fuermosi/claude-opus-4-6"
+        }
+      }
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "agentToAgent": {
+      "enabled": true,
+      "allow": [
+        "main",
+        "tech",
+        "design",
+        "info"
+      ]
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "backup",
+      "match": {
+        "channel": "feishu",
+        "accountId": "backup"
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "feishu",
+        "accountId": "main"
+      }
+    },
+    {
+      "agentId": "writer",
+      "match": {
+        "channel": "feishu",
+        "accountId": "writer"
+      }
+    },
+    {
+      "agentId": "it",
+      "match": {
+        "channel": "feishu",
+        "accountId": "it"
+      }
+    },
+    {
+      "agentId": "person",
+      "match": {
+        "channel": "feishu",
+        "accountId": "person"
+      }
+    },
+    {
+      "agentId": "finance",
+      "match": {
+        "channel": "feishu",
+        "accountId": "finance"
+      }
+    },
+    {
+      "agentId": "design",
+      "match": {
+        "channel": "feishu",
+        "accountId": "design"
+      }
+    },
+    {
+      "agentId": "marketing",
+      "match": {
+        "channel": "feishu",
+        "accountId": "marketing"
+      }
+    },
+    {
+      "agentId": "sales",
+      "match": {
+        "channel": "feishu",
+        "accountId": "sales"
+      }
+    },
+    {
+      "agentId": "product",
+      "match": {
+        "channel": "feishu",
+        "accountId": "product"
+      }
+    },
+    {
+      "agentId": "mentor",
+      "match": {
+        "channel": "feishu",
+        "accountId": "mentor"
+      }
+    },
+    {
+      "agentId": "tech",
+      "match": {
+        "channel": "feishu",
+        "accountId": "tech"
+      }
+    },
+    {
+      "agentId": "info",
+      "match": {
+        "channel": "feishu",
+        "accountId": "info"
+      }
+    }
+  ],
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-account-channel-peer"
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a933ddb8be789ccd",
+      "appSecret": "8I3k************************Vf3n",
+      "connectionMode": "websocket",
+      "domain": "feishu",
+      "groupPolicy": "open",
+      "groupAllowFrom": [
+        "*"
+      ],
+      "groups": {
+        "oc_601abebb22c4ba90c7d3027762089bda": {
+          "requireMention": true,
+          "enabled": true
+        },
+        "oc_1f446a06a49c0ea68a5f8392f210adc2": {
+          "requireMention": false,
+          "enabled": true
+        }
+      },
+      "streaming": true,
+      "footer": {
+        "elapsed": true,
+        "status": true
+      },
+      "accounts": {
+        "backup": {
+          "appId": "cli_a930f3afd03f9bdb",
+          "appSecret": "gSRR************************61i1",
+          "botName": "刘备",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "writer": {
+          "appId": "cli_a931f2dfd7789bb3",
+          "appSecret": "S5bV************************KJA6",
+          "botName": "鲁迅",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "it": {
+          "appId": "cli_a931ef776a3a9bb3",
+          "appSecret": "QVEq************************Vpko",
+          "botName": "比尔·盖茨",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "main": {
+          "appId": "cli_a933ddb8be789ccd",
+          "appSecret": "8I3k************************Vf3n",
+          "botName": "诸葛亮",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "person": {
+          "appId": "cli_a933dfb57b38dcc5",
+          "appSecret": "o55D************************sMOg",
+          "botName": "柳比歇夫",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "finance": {
+          "appId": "cli_a933d9ca51f89cba",
+          "appSecret": "QwYB************************G17b",
+          "botName": "巴菲特",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "design": {
+          "appId": "cli_a93433cdbcb89cb0",
+          "appSecret": "dkdt************************0bBz",
+          "botName": "宋徽宗",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "marketing": {
+          "appId": "cli_a933d80c01789ceb",
+          "appSecret": "6DPu************************Obit",
+          "botName": "奥格威",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "sales": {
+          "appId": "cli_a933d953ef785cef",
+          "appSecret": "q05x************************52g2",
+          "botName": "罗永浩",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "product": {
+          "appId": "cli_a933de2d95b81cd4",
+          "appSecret": "wyir************************uyqS",
+          "botName": "乔布斯",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "mentor": {
+          "appId": "cli_a933de65e2f85cce",
+          "appSecret": "UKiE************************iLYn",
+          "botName": "王阳明",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "tech": {
+          "appId": "cli_a933df0463b9dcc0",
+          "appSecret": "RH3z************************p7ss",
+          "botName": "凯文·凯利",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        },
+        "info": {
+          "appId": "cli_a933de1925b85cce",
+          "appSecret": "ZuaN************************rWBH",
+          "botName": "福尔摩斯",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "enabled": true
+        }
+      }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": "***",
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "skills": {
+    "load": {
+      "extraDirs": [
+        "~/.openclaw/workspace-finance/skills"
+      ]
+    },
+    "entries": {
+      "getnote": {
+        "apiKey": "gk_l*****************************************************************fe15",
+        "env": {
+          "GETNOTE_CLIENT_ID": "cli_3802f9db08b811f197679c63c078bacc"
+        }
+      },
+      "ima-skill": {
+        "env": {
+          "IMA_OPENAPI_APIKEY": "lhEf********************************************************************Gg==",
+          "IMA_OPENAPI_CLIENTID": "200e5d91a5ffa05c02198e813a15976f"
+        }
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "feishu": {
+        "enabled": false
+      },
+      "openclaw-lark": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "openclaw-lark": {
+        "source": "archive",
+        "sourcePath": "/tmp/openclaw-lark-toO2Tt/larksuite-openclaw-lark-2026.3.26.tgz",
+        "installPath": "/root/.openclaw/extensions/openclaw-lark",
+        "version": "2026.3.26",
+        "installedAt": "2026-03-28T05:37:59.119Z"
+      }
+    }
+  }
+}
