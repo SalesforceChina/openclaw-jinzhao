@@ -1,0 +1,10 @@
+# 微信公众号文章URL列表示例
+# 每行一个URL，用于批量导出
+
+# 示例1：架构师之路
+https://mp.weixin.qq.com/s/u9dXAoBs407hy18Avag3Sg
+
+# 示例2：冯矿伟操作策略
+https://mp.weixin.qq.com/s/-k20UNwvQbbzcRm3qQd-Eg
+
+# 在下面添加更多URL...
