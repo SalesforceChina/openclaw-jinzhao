@@ -180,6 +180,10 @@
     "baoyu-post-to-wechat": {
       "version": "1.76.2",
       "installedAt": 1775108914149
+    },
+    "video-generation-minimax": {
+      "version": "1.0.0",
+      "installedAt": 1775201650800
     }
   }
 }
