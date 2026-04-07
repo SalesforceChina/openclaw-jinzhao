@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "burgess-123": {
+      "name": "Token节省王",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=burgess-123",
+      "source": "skillhub",
+      "version": "1.0.0"
+    }
+  }
+}
