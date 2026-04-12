@@ -85,6 +85,24 @@ curl -s "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159915,day,2
 - 等待回调机会，不追高
 - 分批买入，设好止损
 
+### 微信公众号文章下载
+
+**推荐方法：通过 down.mptext.top API 下载（无需认证）**
+
+```bash
+# 下载公众号文章（返回完整HTML，可直接保存）
+curl -s "https://down.mptext.top/api/public/v1/download?url=<文章链接>" -o output.html
+
+# 示例：下载并保存
+curl -s "https://down.mptext.top/api/public/v1/download?url=https://mp.weixin.qq.com/s/xxxxx" -o 冯矿伟-周一操作策略0413.html
+```
+
+**重要：此 API 无需微信扫码认证，可直接调用！**
+- 无需 Docker 部署
+- 无需 wechat-article-exporter
+- 直接请求即可返回完整文章 HTML
+- 保存到 `wechat/` 目录，同时生成 .md 纯文本备份
+
 ## Examples
 
 ```markdown
