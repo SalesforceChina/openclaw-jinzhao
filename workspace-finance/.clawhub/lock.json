@@ -4,6 +4,10 @@
     "china-stock-analysis": {
       "version": "1.0.0",
       "installedAt": 1775746022782
+    },
+    "tushare-pro": {
+      "version": "1.0.0",
+      "installedAt": 1776045540765
     }
   }
 }
