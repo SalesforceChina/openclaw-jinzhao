@@ -1,0 +1,1909 @@
+{
+  "dates": [
+    "20260410",
+    "20260409",
+    "20260408"
+  ],
+  "stocks": {
+    "000889.SZ": {
+      "count": 3,
+      "max_pct": 10.1266,
+      "recent_pct": 10.1266
+    },
+    "600743.SH": {
+      "count": 3,
+      "max_pct": 10.0503,
+      "recent_pct": 9.9585
+    },
+    "603777.SH": {
+      "count": 3,
+      "max_pct": 10.0392,
+      "recent_pct": 9.9786
+    },
+    "603950.SH": {
+      "count": 3,
+      "max_pct": 10.0045,
+      "recent_pct": 10.0045
+    },
+    "603459.SH": {
+      "count": 2,
+      "max_pct": 225.9887,
+      "recent_pct": 225.9887
+    },
+    "300489.SZ": {
+      "count": 2,
+      "max_pct": 20.0,
+      "recent_pct": 20.0
+    },
+    "301181.SZ": {
+      "count": 2,
+      "max_pct": 19.9955,
+      "recent_pct": 11.0112
+    },
+    "688693.SH": {
+      "count": 2,
+      "max_pct": 19.9928,
+      "recent_pct": 19.9928
+    },
+    "300679.SZ": {
+      "count": 2,
+      "max_pct": 19.988,
+      "recent_pct": 19.988
+    },
+    "300548.SZ": {
+      "count": 2,
+      "max_pct": 13.9647,
+      "recent_pct": 12.3407
+    },
+    "300854.SZ": {
+      "count": 2,
+      "max_pct": 12.8243,
+      "recent_pct": 12.8243
+    },
+    "002328.SZ": {
+      "count": 2,
+      "max_pct": 10.0599,
+      "recent_pct": 10.0109
+    },
+    "600707.SH": {
+      "count": 2,
+      "max_pct": 10.0313,
+      "recent_pct": 10.0313
+    },
+    "002580.SZ": {
+      "count": 2,
+      "max_pct": 10.029,
+      "recent_pct": 10.0128
+    },
+    "002962.SZ": {
+      "count": 2,
+      "max_pct": 10.0215,
+      "recent_pct": 10.0195
+    },
+    "002342.SZ": {
+      "count": 2,
+      "max_pct": 10.0212,
+      "recent_pct": 10.0212
+    },
+    "000586.SZ": {
+      "count": 2,
+      "max_pct": 10.0193,
+      "recent_pct": 9.9825
+    },
+    "002213.SZ": {
+      "count": 2,
+      "max_pct": 10.0169,
+      "recent_pct": 10.0149
+    },
+    "603272.SH": {
+      "count": 2,
+      "max_pct": 10.0149,
+      "recent_pct": 9.9934
+    },
+    "000534.SZ": {
+      "count": 2,
+      "max_pct": 10.014,
+      "recent_pct": 9.9928
+    },
+    "603773.SH": {
+      "count": 2,
+      "max_pct": 10.014,
+      "recent_pct": 10.014
+    },
+    "002824.SZ": {
+      "count": 2,
+      "max_pct": 10.0131,
+      "recent_pct": 10.0096
+    },
+    "603757.SH": {
+      "count": 2,
+      "max_pct": 10.0089,
+      "recent_pct": 10.0089
+    },
+    "605060.SH": {
+      "count": 2,
+      "max_pct": 10.0083,
+      "recent_pct": 10.0075
+    },
+    "002975.SZ": {
+      "count": 2,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "605318.SH": {
+      "count": 2,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "002384.SZ": {
+      "count": 2,
+      "max_pct": 9.9992,
+      "recent_pct": 9.9991
+    },
+    "603306.SH": {
+      "count": 2,
+      "max_pct": 9.9975,
+      "recent_pct": 9.9975
+    },
+    "600105.SH": {
+      "count": 2,
+      "max_pct": 9.9967,
+      "recent_pct": 9.9967
+    },
+    "002536.SZ": {
+      "count": 2,
+      "max_pct": 9.9967,
+      "recent_pct": 9.9856
+    },
+    "600345.SH": {
+      "count": 2,
+      "max_pct": 9.996,
+      "recent_pct": 9.9933
+    },
+    "002364.SZ": {
+      "count": 2,
+      "max_pct": 9.9906,
+      "recent_pct": 9.9906
+    },
+    "301696.SZ": {
+      "count": 1,
+      "max_pct": 272.7715,
+      "recent_pct": 272.7715
+    },
+    "688811.SH": {
+      "count": 1,
+      "max_pct": 167.0827,
+      "recent_pct": 167.0827
+    },
+    "920181.BJ": {
+      "count": 1,
+      "max_pct": 120.7143,
+      "recent_pct": 120.7143
+    },
+    "920011.BJ": {
+      "count": 1,
+      "max_pct": 87.3548,
+      "recent_pct": 87.3548
+    },
+    "920171.BJ": {
+      "count": 1,
+      "max_pct": 29.9445,
+      "recent_pct": 29.9445
+    },
+    "920237.BJ": {
+      "count": 1,
+      "max_pct": 28.1774,
+      "recent_pct": 28.1774
+    },
+    "300209.SZ": {
+      "count": 1,
+      "max_pct": 20.0205,
+      "recent_pct": 20.0205
+    },
+    "688690.SH": {
+      "count": 1,
+      "max_pct": 20.0152,
+      "recent_pct": 20.0152
+    },
+    "300058.SZ": {
+      "count": 1,
+      "max_pct": 20.0147,
+      "recent_pct": 20.0147
+    },
+    "300475.SZ": {
+      "count": 1,
+      "max_pct": 20.0032,
+      "recent_pct": 20.0032
+    },
+    "688478.SH": {
+      "count": 1,
+      "max_pct": 20.0,
+      "recent_pct": 20.0
+    },
+    "688655.SH": {
+      "count": 1,
+      "max_pct": 20.0,
+      "recent_pct": 20.0
+    },
+    "688630.SH": {
+      "count": 1,
+      "max_pct": 20.0,
+      "recent_pct": 20.0
+    },
+    "301232.SZ": {
+      "count": 1,
+      "max_pct": 20.0,
+      "recent_pct": 20.0
+    },
+    "301070.SZ": {
+      "count": 1,
+      "max_pct": 20.0,
+      "recent_pct": 20.0
+    },
+    "300131.SZ": {
+      "count": 1,
+      "max_pct": 20.0,
+      "recent_pct": 20.0
+    },
+    "688485.SH": {
+      "count": 1,
+      "max_pct": 19.994,
+      "recent_pct": 19.994
+    },
+    "300571.SZ": {
+      "count": 1,
+      "max_pct": 19.9934,
+      "recent_pct": 19.9934
+    },
+    "300561.SZ": {
+      "count": 1,
+      "max_pct": 19.9823,
+      "recent_pct": 19.9823
+    },
+    "688112.SH": {
+      "count": 1,
+      "max_pct": 18.7653,
+      "recent_pct": 18.7653
+    },
+    "920021.BJ": {
+      "count": 1,
+      "max_pct": 18.084,
+      "recent_pct": 18.084
+    },
+    "300686.SZ": {
+      "count": 1,
+      "max_pct": 18.0066,
+      "recent_pct": 18.0066
+    },
+    "301396.SZ": {
+      "count": 1,
+      "max_pct": 17.8228,
+      "recent_pct": 17.8228
+    },
+    "300139.SZ": {
+      "count": 1,
+      "max_pct": 16.8287,
+      "recent_pct": 16.8287
+    },
+    "301171.SZ": {
+      "count": 1,
+      "max_pct": 16.5752,
+      "recent_pct": 16.5752
+    },
+    "688125.SH": {
+      "count": 1,
+      "max_pct": 16.4835,
+      "recent_pct": 16.4835
+    },
+    "688337.SH": {
+      "count": 1,
+      "max_pct": 16.2862,
+      "recent_pct": 16.2862
+    },
+    "300668.SZ": {
+      "count": 1,
+      "max_pct": 16.1178,
+      "recent_pct": 16.1178
+    },
+    "688392.SH": {
+      "count": 1,
+      "max_pct": 16.0714,
+      "recent_pct": 16.0714
+    },
+    "301018.SZ": {
+      "count": 1,
+      "max_pct": 15.8306,
+      "recent_pct": 15.8306
+    },
+    "300085.SZ": {
+      "count": 1,
+      "max_pct": 15.7864,
+      "recent_pct": 15.7864
+    },
+    "688229.SH": {
+      "count": 1,
+      "max_pct": 15.7444,
+      "recent_pct": 15.7444
+    },
+    "300790.SZ": {
+      "count": 1,
+      "max_pct": 15.4815,
+      "recent_pct": 15.4815
+    },
+    "920207.BJ": {
+      "count": 1,
+      "max_pct": 15.3377,
+      "recent_pct": 15.3377
+    },
+    "301133.SZ": {
+      "count": 1,
+      "max_pct": 15.3215,
+      "recent_pct": 15.3215
+    },
+    "688720.SH": {
+      "count": 1,
+      "max_pct": 15.2759,
+      "recent_pct": 15.2759
+    },
+    "300664.SZ": {
+      "count": 1,
+      "max_pct": 15.27,
+      "recent_pct": 15.27
+    },
+    "688270.SH": {
+      "count": 1,
+      "max_pct": 15.1047,
+      "recent_pct": 15.1047
+    },
+    "300166.SZ": {
+      "count": 1,
+      "max_pct": 15.0136,
+      "recent_pct": 15.0136
+    },
+    "688813.SH": {
+      "count": 1,
+      "max_pct": 14.9374,
+      "recent_pct": 14.9374
+    },
+    "301189.SZ": {
+      "count": 1,
+      "max_pct": 14.8237,
+      "recent_pct": 14.8237
+    },
+    "300063.SZ": {
+      "count": 1,
+      "max_pct": 14.8182,
+      "recent_pct": 14.8182
+    },
+    "300017.SZ": {
+      "count": 1,
+      "max_pct": 14.7664,
+      "recent_pct": 14.7664
+    },
+    "300207.SZ": {
+      "count": 1,
+      "max_pct": 14.7035,
+      "recent_pct": 14.7035
+    },
+    "688683.SH": {
+      "count": 1,
+      "max_pct": 14.5332,
+      "recent_pct": 14.5332
+    },
+    "688676.SH": {
+      "count": 1,
+      "max_pct": 14.5259,
+      "recent_pct": 14.5259
+    },
+    "300606.SZ": {
+      "count": 1,
+      "max_pct": 14.4816,
+      "recent_pct": 14.4816
+    },
+    "301500.SZ": {
+      "count": 1,
+      "max_pct": 14.4718,
+      "recent_pct": 14.4718
+    },
+    "300843.SZ": {
+      "count": 1,
+      "max_pct": 14.4337,
+      "recent_pct": 14.4337
+    },
+    "688702.SH": {
+      "count": 1,
+      "max_pct": 14.2358,
+      "recent_pct": 14.2358
+    },
+    "301200.SZ": {
+      "count": 1,
+      "max_pct": 14.0461,
+      "recent_pct": 14.0461
+    },
+    "300986.SZ": {
+      "count": 1,
+      "max_pct": 14.0,
+      "recent_pct": 14.0
+    },
+    "688158.SH": {
+      "count": 1,
+      "max_pct": 13.9529,
+      "recent_pct": 13.9529
+    },
+    "300461.SZ": {
+      "count": 1,
+      "max_pct": 13.8168,
+      "recent_pct": 13.8168
+    },
+    "301468.SZ": {
+      "count": 1,
+      "max_pct": 13.7711,
+      "recent_pct": 13.7711
+    },
+    "688150.SH": {
+      "count": 1,
+      "max_pct": 13.659,
+      "recent_pct": 13.659
+    },
+    "688343.SH": {
+      "count": 1,
+      "max_pct": 13.6273,
+      "recent_pct": 13.6273
+    },
+    "688535.SH": {
+      "count": 1,
+      "max_pct": 13.4108,
+      "recent_pct": 13.4108
+    },
+    "688316.SH": {
+      "count": 1,
+      "max_pct": 13.3106,
+      "recent_pct": 13.3106
+    },
+    "300113.SZ": {
+      "count": 1,
+      "max_pct": 13.2277,
+      "recent_pct": 13.2277
+    },
+    "688066.SH": {
+      "count": 1,
+      "max_pct": 13.0881,
+      "recent_pct": 13.0881
+    },
+    "688396.SH": {
+      "count": 1,
+      "max_pct": 12.9759,
+      "recent_pct": 12.9759
+    },
+    "300170.SZ": {
+      "count": 1,
+      "max_pct": 12.7648,
+      "recent_pct": 12.7648
+    },
+    "301479.SZ": {
+      "count": 1,
+      "max_pct": 12.7517,
+      "recent_pct": 12.7517
+    },
+    "688603.SH": {
+      "count": 1,
+      "max_pct": 12.5725,
+      "recent_pct": 12.5725
+    },
+    "300322.SZ": {
+      "count": 1,
+      "max_pct": 12.5321,
+      "recent_pct": 12.5321
+    },
+    "301099.SZ": {
+      "count": 1,
+      "max_pct": 12.5084,
+      "recent_pct": 12.5084
+    },
+    "301053.SZ": {
+      "count": 1,
+      "max_pct": 12.4859,
+      "recent_pct": 12.4859
+    },
+    "300227.SZ": {
+      "count": 1,
+      "max_pct": 12.4542,
+      "recent_pct": 12.4542
+    },
+    "688480.SH": {
+      "count": 1,
+      "max_pct": 12.4051,
+      "recent_pct": 12.4051
+    },
+    "300468.SZ": {
+      "count": 1,
+      "max_pct": 12.3588,
+      "recent_pct": 12.3588
+    },
+    "688031.SH": {
+      "count": 1,
+      "max_pct": 12.3076,
+      "recent_pct": 12.3076
+    },
+    "920184.BJ": {
+      "count": 1,
+      "max_pct": 12.2477,
+      "recent_pct": 12.2477
+    },
+    "688818.SH": {
+      "count": 1,
+      "max_pct": 12.2471,
+      "recent_pct": 12.2471
+    },
+    "688371.SH": {
+      "count": 1,
+      "max_pct": 12.2199,
+      "recent_pct": 12.2199
+    },
+    "300846.SZ": {
+      "count": 1,
+      "max_pct": 12.2185,
+      "recent_pct": 12.2185
+    },
+    "688365.SH": {
+      "count": 1,
+      "max_pct": 12.2076,
+      "recent_pct": 12.2076
+    },
+    "300785.SZ": {
+      "count": 1,
+      "max_pct": 12.2061,
+      "recent_pct": 12.2061
+    },
+    "301489.SZ": {
+      "count": 1,
+      "max_pct": 12.157,
+      "recent_pct": 12.157
+    },
+    "688039.SH": {
+      "count": 1,
+      "max_pct": 12.1274,
+      "recent_pct": 12.1274
+    },
+    "300868.SZ": {
+      "count": 1,
+      "max_pct": 12.118,
+      "recent_pct": 12.118
+    },
+    "300364.SZ": {
+      "count": 1,
+      "max_pct": 12.1007,
+      "recent_pct": 12.1007
+    },
+    "301317.SZ": {
+      "count": 1,
+      "max_pct": 12.0672,
+      "recent_pct": 12.0672
+    },
+    "300738.SZ": {
+      "count": 1,
+      "max_pct": 12.0388,
+      "recent_pct": 12.0388
+    },
+    "688668.SH": {
+      "count": 1,
+      "max_pct": 11.9881,
+      "recent_pct": 11.9881
+    },
+    "301055.SZ": {
+      "count": 1,
+      "max_pct": 11.9377,
+      "recent_pct": 11.9377
+    },
+    "688183.SH": {
+      "count": 1,
+      "max_pct": 11.9101,
+      "recent_pct": 11.9101
+    },
+    "688258.SH": {
+      "count": 1,
+      "max_pct": 11.8856,
+      "recent_pct": 11.8856
+    },
+    "301369.SZ": {
+      "count": 1,
+      "max_pct": 11.8758,
+      "recent_pct": 11.8758
+    },
+    "300480.SZ": {
+      "count": 1,
+      "max_pct": 11.8705,
+      "recent_pct": 11.8705
+    },
+    "301246.SZ": {
+      "count": 1,
+      "max_pct": 11.8568,
+      "recent_pct": 11.8568
+    },
+    "300780.SZ": {
+      "count": 1,
+      "max_pct": 11.7929,
+      "recent_pct": 11.7929
+    },
+    "301387.SZ": {
+      "count": 1,
+      "max_pct": 11.7845,
+      "recent_pct": 11.7845
+    },
+    "300857.SZ": {
+      "count": 1,
+      "max_pct": 11.6728,
+      "recent_pct": 11.6728
+    },
+    "300249.SZ": {
+      "count": 1,
+      "max_pct": 11.5789,
+      "recent_pct": 11.5789
+    },
+    "300499.SZ": {
+      "count": 1,
+      "max_pct": 11.5752,
+      "recent_pct": 11.5752
+    },
+    "920790.BJ": {
+      "count": 1,
+      "max_pct": 11.5676,
+      "recent_pct": 11.5676
+    },
+    "301188.SZ": {
+      "count": 1,
+      "max_pct": 11.5457,
+      "recent_pct": 11.5457
+    },
+    "300634.SZ": {
+      "count": 1,
+      "max_pct": 11.4358,
+      "recent_pct": 11.4358
+    },
+    "300866.SZ": {
+      "count": 1,
+      "max_pct": 11.3767,
+      "recent_pct": 11.3767
+    },
+    "301085.SZ": {
+      "count": 1,
+      "max_pct": 11.3228,
+      "recent_pct": 11.3228
+    },
+    "301319.SZ": {
+      "count": 1,
+      "max_pct": 11.2945,
+      "recent_pct": 11.2945
+    },
+    "300184.SZ": {
+      "count": 1,
+      "max_pct": 11.2811,
+      "recent_pct": 11.2811
+    },
+    "300454.SZ": {
+      "count": 1,
+      "max_pct": 11.2733,
+      "recent_pct": 11.2733
+    },
+    "688123.SH": {
+      "count": 1,
+      "max_pct": 11.2645,
+      "recent_pct": 11.2645
+    },
+    "688638.SH": {
+      "count": 1,
+      "max_pct": 11.1579,
+      "recent_pct": 11.1579
+    },
+    "300602.SZ": {
+      "count": 1,
+      "max_pct": 11.1414,
+      "recent_pct": 11.1414
+    },
+    "300308.SZ": {
+      "count": 1,
+      "max_pct": 11.0745,
+      "recent_pct": 11.0745
+    },
+    "300900.SZ": {
+      "count": 1,
+      "max_pct": 11.0162,
+      "recent_pct": 11.0162
+    },
+    "688456.SH": {
+      "count": 1,
+      "max_pct": 10.9901,
+      "recent_pct": 10.9901
+    },
+    "300418.SZ": {
+      "count": 1,
+      "max_pct": 10.9699,
+      "recent_pct": 10.9699
+    },
+    "688226.SH": {
+      "count": 1,
+      "max_pct": 10.93,
+      "recent_pct": 10.93
+    },
+    "688141.SH": {
+      "count": 1,
+      "max_pct": 10.9222,
+      "recent_pct": 10.9222
+    },
+    "300975.SZ": {
+      "count": 1,
+      "max_pct": 10.896,
+      "recent_pct": 10.896
+    },
+    "688701.SH": {
+      "count": 1,
+      "max_pct": 10.8287,
+      "recent_pct": 10.8287
+    },
+    "688531.SH": {
+      "count": 1,
+      "max_pct": 10.8149,
+      "recent_pct": 10.8149
+    },
+    "301563.SZ": {
+      "count": 1,
+      "max_pct": 10.8026,
+      "recent_pct": 10.8026
+    },
+    "688573.SH": {
+      "count": 1,
+      "max_pct": 10.7676,
+      "recent_pct": 10.7676
+    },
+    "300988.SZ": {
+      "count": 1,
+      "max_pct": 10.7186,
+      "recent_pct": 10.7186
+    },
+    "688318.SH": {
+      "count": 1,
+      "max_pct": 10.7157,
+      "recent_pct": 10.7157
+    },
+    "300355.SZ": {
+      "count": 1,
+      "max_pct": 10.6849,
+      "recent_pct": 10.6849
+    },
+    "688787.SH": {
+      "count": 1,
+      "max_pct": 10.6669,
+      "recent_pct": 10.6669
+    },
+    "688355.SH": {
+      "count": 1,
+      "max_pct": 10.6628,
+      "recent_pct": 10.6628
+    },
+    "688022.SH": {
+      "count": 1,
+      "max_pct": 10.662,
+      "recent_pct": 10.662
+    },
+    "688455.SH": {
+      "count": 1,
+      "max_pct": 10.5828,
+      "recent_pct": 10.5828
+    },
+    "688046.SH": {
+      "count": 1,
+      "max_pct": 10.5542,
+      "recent_pct": 10.5542
+    },
+    "301005.SZ": {
+      "count": 1,
+      "max_pct": 10.5413,
+      "recent_pct": 10.5413
+    },
+    "688536.SH": {
+      "count": 1,
+      "max_pct": 10.5282,
+      "recent_pct": 10.5282
+    },
+    "301362.SZ": {
+      "count": 1,
+      "max_pct": 10.5166,
+      "recent_pct": 10.5166
+    },
+    "688530.SH": {
+      "count": 1,
+      "max_pct": 10.5115,
+      "recent_pct": 10.5115
+    },
+    "688387.SH": {
+      "count": 1,
+      "max_pct": 10.5072,
+      "recent_pct": 10.5072
+    },
+    "688020.SH": {
+      "count": 1,
+      "max_pct": 10.5034,
+      "recent_pct": 10.5034
+    },
+    "301291.SZ": {
+      "count": 1,
+      "max_pct": 10.4453,
+      "recent_pct": 10.4453
+    },
+    "688590.SH": {
+      "count": 1,
+      "max_pct": 10.4294,
+      "recent_pct": 10.4294
+    },
+    "300050.SZ": {
+      "count": 1,
+      "max_pct": 10.3933,
+      "recent_pct": 10.3933
+    },
+    "301667.SZ": {
+      "count": 1,
+      "max_pct": 10.3882,
+      "recent_pct": 10.3882
+    },
+    "920227.BJ": {
+      "count": 1,
+      "max_pct": 10.3815,
+      "recent_pct": 10.3815
+    },
+    "301389.SZ": {
+      "count": 1,
+      "max_pct": 10.352,
+      "recent_pct": 10.352
+    },
+    "300617.SZ": {
+      "count": 1,
+      "max_pct": 10.3468,
+      "recent_pct": 10.3468
+    },
+    "688692.SH": {
+      "count": 1,
+      "max_pct": 10.2914,
+      "recent_pct": 10.2914
+    },
+    "920092.BJ": {
+      "count": 1,
+      "max_pct": 10.2837,
+      "recent_pct": 10.2837
+    },
+    "301517.SZ": {
+      "count": 1,
+      "max_pct": 10.2378,
+      "recent_pct": 10.2378
+    },
+    "688272.SH": {
+      "count": 1,
+      "max_pct": 10.2377,
+      "recent_pct": 10.2377
+    },
+    "300042.SZ": {
+      "count": 1,
+      "max_pct": 10.2351,
+      "recent_pct": 10.2351
+    },
+    "920045.BJ": {
+      "count": 1,
+      "max_pct": 10.2222,
+      "recent_pct": 10.2222
+    },
+    "300458.SZ": {
+      "count": 1,
+      "max_pct": 10.2064,
+      "recent_pct": 10.2064
+    },
+    "300071.SZ": {
+      "count": 1,
+      "max_pct": 10.1911,
+      "recent_pct": 10.1911
+    },
+    "300390.SZ": {
+      "count": 1,
+      "max_pct": 10.1613,
+      "recent_pct": 10.1613
+    },
+    "000727.SZ": {
+      "count": 1,
+      "max_pct": 10.1563,
+      "recent_pct": 10.1563
+    },
+    "600103.SH": {
+      "count": 1,
+      "max_pct": 10.1408,
+      "recent_pct": 10.1408
+    },
+    "300065.SZ": {
+      "count": 1,
+      "max_pct": 10.1139,
+      "recent_pct": 10.1139
+    },
+    "002263.SZ": {
+      "count": 1,
+      "max_pct": 10.1124,
+      "recent_pct": 10.1124
+    },
+    "002421.SZ": {
+      "count": 1,
+      "max_pct": 10.0806,
+      "recent_pct": 10.0806
+    },
+    "002107.SZ": {
+      "count": 1,
+      "max_pct": 10.0719,
+      "recent_pct": 10.0719
+    },
+    "002797.SZ": {
+      "count": 1,
+      "max_pct": 10.0709,
+      "recent_pct": 10.0709
+    },
+    "688545.SH": {
+      "count": 1,
+      "max_pct": 10.0671,
+      "recent_pct": 10.0671
+    },
+    "603889.SH": {
+      "count": 1,
+      "max_pct": 10.0629,
+      "recent_pct": 10.0629
+    },
+    "002348.SZ": {
+      "count": 1,
+      "max_pct": 10.0621,
+      "recent_pct": 10.0621
+    },
+    "600356.SH": {
+      "count": 1,
+      "max_pct": 10.0585,
+      "recent_pct": 10.0585
+    },
+    "002418.SZ": {
+      "count": 1,
+      "max_pct": 10.058,
+      "recent_pct": 10.058
+    },
+    "600984.SH": {
+      "count": 1,
+      "max_pct": 10.0529,
+      "recent_pct": 10.0529
+    },
+    "002400.SZ": {
+      "count": 1,
+      "max_pct": 10.0503,
+      "recent_pct": 10.0503
+    },
+    "002478.SZ": {
+      "count": 1,
+      "max_pct": 10.0498,
+      "recent_pct": 10.0498
+    },
+    "000892.SZ": {
+      "count": 1,
+      "max_pct": 10.0494,
+      "recent_pct": 10.0494
+    },
+    "600983.SH": {
+      "count": 1,
+      "max_pct": 10.0493,
+      "recent_pct": 10.0493
+    },
+    "600126.SH": {
+      "count": 1,
+      "max_pct": 10.0473,
+      "recent_pct": 10.0473
+    },
+    "000917.SZ": {
+      "count": 1,
+      "max_pct": 10.0446,
+      "recent_pct": 10.0446
+    },
+    "002716.SZ": {
+      "count": 1,
+      "max_pct": 10.0441,
+      "recent_pct": 10.0441
+    },
+    "002449.SZ": {
+      "count": 1,
+      "max_pct": 10.0396,
+      "recent_pct": 10.0396
+    },
+    "603328.SH": {
+      "count": 1,
+      "max_pct": 10.0358,
+      "recent_pct": 10.0358
+    },
+    "002361.SZ": {
+      "count": 1,
+      "max_pct": 10.0328,
+      "recent_pct": 10.0328
+    },
+    "000811.SZ": {
+      "count": 1,
+      "max_pct": 10.0299,
+      "recent_pct": 10.0299
+    },
+    "000078.SZ": {
+      "count": 1,
+      "max_pct": 10.0287,
+      "recent_pct": 10.0287
+    },
+    "603093.SH": {
+      "count": 1,
+      "max_pct": 10.0285,
+      "recent_pct": 10.0285
+    },
+    "605189.SH": {
+      "count": 1,
+      "max_pct": 10.0275,
+      "recent_pct": 10.0275
+    },
+    "002645.SZ": {
+      "count": 1,
+      "max_pct": 10.0258,
+      "recent_pct": 10.0258
+    },
+    "002363.SZ": {
+      "count": 1,
+      "max_pct": 10.0254,
+      "recent_pct": 10.0254
+    },
+    "603958.SH": {
+      "count": 1,
+      "max_pct": 10.0247,
+      "recent_pct": 10.0247
+    },
+    "000551.SZ": {
+      "count": 1,
+      "max_pct": 10.0237,
+      "recent_pct": 10.0237
+    },
+    "600986.SH": {
+      "count": 1,
+      "max_pct": 10.0218,
+      "recent_pct": 10.0218
+    },
+    "605162.SH": {
+      "count": 1,
+      "max_pct": 10.0213,
+      "recent_pct": 10.0213
+    },
+    "600589.SH": {
+      "count": 1,
+      "max_pct": 10.0202,
+      "recent_pct": 10.0202
+    },
+    "600629.SH": {
+      "count": 1,
+      "max_pct": 10.0198,
+      "recent_pct": 10.0198
+    },
+    "600721.SH": {
+      "count": 1,
+      "max_pct": 10.0196,
+      "recent_pct": 10.0196
+    },
+    "002051.SZ": {
+      "count": 1,
+      "max_pct": 10.0191,
+      "recent_pct": 10.0191
+    },
+    "601002.SH": {
+      "count": 1,
+      "max_pct": 10.0189,
+      "recent_pct": 10.0189
+    },
+    "605056.SH": {
+      "count": 1,
+      "max_pct": 10.0188,
+      "recent_pct": 10.0188
+    },
+    "002484.SZ": {
+      "count": 1,
+      "max_pct": 10.0178,
+      "recent_pct": 10.0178
+    },
+    "001287.SZ": {
+      "count": 1,
+      "max_pct": 10.0174,
+      "recent_pct": 10.0174
+    },
+    "002155.SZ": {
+      "count": 1,
+      "max_pct": 10.0172,
+      "recent_pct": 10.0172
+    },
+    "002899.SZ": {
+      "count": 1,
+      "max_pct": 10.0172,
+      "recent_pct": 10.0172
+    },
+    "688010.SH": {
+      "count": 1,
+      "max_pct": 10.0166,
+      "recent_pct": 10.0166
+    },
+    "605016.SH": {
+      "count": 1,
+      "max_pct": 10.0166,
+      "recent_pct": 10.0166
+    },
+    "600641.SH": {
+      "count": 1,
+      "max_pct": 10.0156,
+      "recent_pct": 10.0156
+    },
+    "001269.SZ": {
+      "count": 1,
+      "max_pct": 10.0142,
+      "recent_pct": 10.0142
+    },
+    "601811.SH": {
+      "count": 1,
+      "max_pct": 10.0138,
+      "recent_pct": 10.0138
+    },
+    "601999.SH": {
+      "count": 1,
+      "max_pct": 10.013,
+      "recent_pct": 10.013
+    },
+    "003036.SZ": {
+      "count": 1,
+      "max_pct": 10.0125,
+      "recent_pct": 10.0125
+    },
+    "002988.SZ": {
+      "count": 1,
+      "max_pct": 10.0124,
+      "recent_pct": 10.0124
+    },
+    "002634.SZ": {
+      "count": 1,
+      "max_pct": 10.0114,
+      "recent_pct": 10.0114
+    },
+    "601137.SH": {
+      "count": 1,
+      "max_pct": 10.0112,
+      "recent_pct": 10.0112
+    },
+    "600482.SH": {
+      "count": 1,
+      "max_pct": 10.0109,
+      "recent_pct": 10.0109
+    },
+    "001337.SZ": {
+      "count": 1,
+      "max_pct": 10.0107,
+      "recent_pct": 10.0107
+    },
+    "603196.SH": {
+      "count": 1,
+      "max_pct": 10.0106,
+      "recent_pct": 10.0106
+    },
+    "000070.SZ": {
+      "count": 1,
+      "max_pct": 10.0105,
+      "recent_pct": 10.0105
+    },
+    "600301.SH": {
+      "count": 1,
+      "max_pct": 10.0105,
+      "recent_pct": 10.0105
+    },
+    "605287.SH": {
+      "count": 1,
+      "max_pct": 10.0103,
+      "recent_pct": 10.0103
+    },
+    "002380.SZ": {
+      "count": 1,
+      "max_pct": 10.0099,
+      "recent_pct": 10.0099
+    },
+    "000962.SZ": {
+      "count": 1,
+      "max_pct": 10.0099,
+      "recent_pct": 10.0099
+    },
+    "605258.SH": {
+      "count": 1,
+      "max_pct": 10.0089,
+      "recent_pct": 10.0089
+    },
+    "603920.SH": {
+      "count": 1,
+      "max_pct": 10.0081,
+      "recent_pct": 10.0081
+    },
+    "603203.SH": {
+      "count": 1,
+      "max_pct": 10.0078,
+      "recent_pct": 10.0078
+    },
+    "605305.SH": {
+      "count": 1,
+      "max_pct": 10.0077,
+      "recent_pct": 10.0077
+    },
+    "001267.SZ": {
+      "count": 1,
+      "max_pct": 10.0074,
+      "recent_pct": 10.0074
+    },
+    "603890.SH": {
+      "count": 1,
+      "max_pct": 10.007,
+      "recent_pct": 10.007
+    },
+    "600869.SH": {
+      "count": 1,
+      "max_pct": 10.0069,
+      "recent_pct": 10.0069
+    },
+    "601069.SH": {
+      "count": 1,
+      "max_pct": 10.0066,
+      "recent_pct": 10.0066
+    },
+    "002008.SZ": {
+      "count": 1,
+      "max_pct": 10.0062,
+      "recent_pct": 10.0062
+    },
+    "002957.SZ": {
+      "count": 1,
+      "max_pct": 10.0059,
+      "recent_pct": 10.0059
+    },
+    "002074.SZ": {
+      "count": 1,
+      "max_pct": 10.0057,
+      "recent_pct": 10.0057
+    },
+    "603881.SH": {
+      "count": 1,
+      "max_pct": 10.0056,
+      "recent_pct": 10.0056
+    },
+    "003041.SZ": {
+      "count": 1,
+      "max_pct": 10.0041,
+      "recent_pct": 10.0041
+    },
+    "002281.SZ": {
+      "count": 1,
+      "max_pct": 10.0041,
+      "recent_pct": 10.0041
+    },
+    "605289.SH": {
+      "count": 1,
+      "max_pct": 10.004,
+      "recent_pct": 10.004
+    },
+    "002353.SZ": {
+      "count": 1,
+      "max_pct": 10.0039,
+      "recent_pct": 10.0039
+    },
+    "001211.SZ": {
+      "count": 1,
+      "max_pct": 10.0036,
+      "recent_pct": 10.0036
+    },
+    "603175.SH": {
+      "count": 1,
+      "max_pct": 10.0026,
+      "recent_pct": 10.0026
+    },
+    "002046.SZ": {
+      "count": 1,
+      "max_pct": 10.0024,
+      "recent_pct": 10.0024
+    },
+    "002718.SZ": {
+      "count": 1,
+      "max_pct": 10.0014,
+      "recent_pct": 10.0014
+    },
+    "001309.SZ": {
+      "count": 1,
+      "max_pct": 10.0005,
+      "recent_pct": 10.0005
+    },
+    "600841.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "601010.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "600594.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "000426.SZ": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "601869.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "603138.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "603216.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "603629.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "603929.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "600337.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "603200.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "002902.SZ": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "600713.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "002150.SZ": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "002928.SZ": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "600537.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "605006.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "001389.SZ": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "002733.SZ": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "603516.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "000919.SZ": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "603933.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "600654.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "002947.SZ": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "000762.SZ": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "603045.SH": {
+      "count": 1,
+      "max_pct": 10.0,
+      "recent_pct": 10.0
+    },
+    "605117.SH": {
+      "count": 1,
+      "max_pct": 9.9992,
+      "recent_pct": 9.9992
+    },
+    "002916.SZ": {
+      "count": 1,
+      "max_pct": 9.9991,
+      "recent_pct": 9.9991
+    },
+    "603083.SH": {
+      "count": 1,
+      "max_pct": 9.999,
+      "recent_pct": 9.999
+    },
+    "002025.SZ": {
+      "count": 1,
+      "max_pct": 9.9986,
+      "recent_pct": 9.9986
+    },
+    "603308.SH": {
+      "count": 1,
+      "max_pct": 9.9984,
+      "recent_pct": 9.9984
+    },
+    "603507.SH": {
+      "count": 1,
+      "max_pct": 9.9976,
+      "recent_pct": 9.9976
+    },
+    "603538.SH": {
+      "count": 1,
+      "max_pct": 9.9975,
+      "recent_pct": 9.9975
+    },
+    "603026.SH": {
+      "count": 1,
+      "max_pct": 9.9974,
+      "recent_pct": 9.9974
+    },
+    "002636.SZ": {
+      "count": 1,
+      "max_pct": 9.997,
+      "recent_pct": 9.997
+    },
+    "600114.SH": {
+      "count": 1,
+      "max_pct": 9.9963,
+      "recent_pct": 9.9963
+    },
+    "002463.SZ": {
+      "count": 1,
+      "max_pct": 9.9961,
+      "recent_pct": 9.9961
+    },
+    "002929.SZ": {
+      "count": 1,
+      "max_pct": 9.9958,
+      "recent_pct": 9.9958
+    },
+    "605255.SH": {
+      "count": 1,
+      "max_pct": 9.9958,
+      "recent_pct": 9.9958
+    },
+    "002921.SZ": {
+      "count": 1,
+      "max_pct": 9.9958,
+      "recent_pct": 9.9958
+    },
+    "002995.SZ": {
+      "count": 1,
+      "max_pct": 9.9956,
+      "recent_pct": 9.9956
+    },
+    "603121.SH": {
+      "count": 1,
+      "max_pct": 9.9949,
+      "recent_pct": 9.9949
+    },
+    "600330.SH": {
+      "count": 1,
+      "max_pct": 9.9944,
+      "recent_pct": 9.9944
+    },
+    "600875.SH": {
+      "count": 1,
+      "max_pct": 9.9943,
+      "recent_pct": 9.9943
+    },
+    "000506.SZ": {
+      "count": 1,
+      "max_pct": 9.9941,
+      "recent_pct": 9.9941
+    },
+    "600619.SH": {
+      "count": 1,
+      "max_pct": 9.994,
+      "recent_pct": 9.994
+    },
+    "603315.SH": {
+      "count": 1,
+      "max_pct": 9.9924,
+      "recent_pct": 9.9924
+    },
+    "002273.SZ": {
+      "count": 1,
+      "max_pct": 9.9922,
+      "recent_pct": 9.9922
+    },
+    "603211.SH": {
+      "count": 1,
+      "max_pct": 9.9916,
+      "recent_pct": 9.9916
+    },
+    "002181.SZ": {
+      "count": 1,
+      "max_pct": 9.9915,
+      "recent_pct": 9.9915
+    },
+    "600480.SH": {
+      "count": 1,
+      "max_pct": 9.9898,
+      "recent_pct": 9.9898
+    },
+    "603598.SH": {
+      "count": 1,
+      "max_pct": 9.9896,
+      "recent_pct": 9.9896
+    },
+    "002039.SZ": {
+      "count": 1,
+      "max_pct": 9.9896,
+      "recent_pct": 9.9896
+    },
+    "002843.SZ": {
+      "count": 1,
+      "max_pct": 9.9868,
+      "recent_pct": 9.9868
+    },
+    "600156.SH": {
+      "count": 1,
+      "max_pct": 9.9865,
+      "recent_pct": 9.9865
+    },
+    "000670.SZ": {
+      "count": 1,
+      "max_pct": 9.9865,
+      "recent_pct": 9.9865
+    },
+    "002635.SZ": {
+      "count": 1,
+      "max_pct": 9.986,
+      "recent_pct": 9.986
+    },
+    "002491.SZ": {
+      "count": 1,
+      "max_pct": 9.9855,
+      "recent_pct": 9.9855
+    },
+    "603863.SH": {
+      "count": 1,
+      "max_pct": 9.984,
+      "recent_pct": 9.984
+    },
+    "002188.SZ": {
+      "count": 1,
+      "max_pct": 9.9839,
+      "recent_pct": 9.9839
+    },
+    "603088.SH": {
+      "count": 1,
+      "max_pct": 9.9836,
+      "recent_pct": 9.9836
+    },
+    "600666.SH": {
+      "count": 1,
+      "max_pct": 9.9831,
+      "recent_pct": 9.9831
+    },
+    "601133.SH": {
+      "count": 1,
+      "max_pct": 9.9822,
+      "recent_pct": 9.9822
+    },
+    "002606.SZ": {
+      "count": 1,
+      "max_pct": 9.9815,
+      "recent_pct": 9.9815
+    },
+    "603311.SH": {
+      "count": 1,
+      "max_pct": 9.981,
+      "recent_pct": 9.981
+    },
+    "001299.SZ": {
+      "count": 1,
+      "max_pct": 9.9785,
+      "recent_pct": 9.9785
+    },
+    "301393.SZ": {
+      "count": 1,
+      "max_pct": 9.9778,
+      "recent_pct": 9.9778
+    },
+    "002787.SZ": {
+      "count": 1,
+      "max_pct": 9.9761,
+      "recent_pct": 9.9761
+    },
+    "002950.SZ": {
+      "count": 1,
+      "max_pct": 9.9757,
+      "recent_pct": 9.9757
+    },
+    "000659.SZ": {
+      "count": 1,
+      "max_pct": 9.9744,
+      "recent_pct": 9.9744
+    },
+    "002708.SZ": {
+      "count": 1,
+      "max_pct": 9.9742,
+      "recent_pct": 9.9742
+    },
+    "301093.SZ": {
+      "count": 1,
+      "max_pct": 9.9739,
+      "recent_pct": 9.9739
+    },
+    "002177.SZ": {
+      "count": 1,
+      "max_pct": 9.973,
+      "recent_pct": 9.973
+    },
+    "000978.SZ": {
+      "count": 1,
+      "max_pct": 9.9727,
+      "recent_pct": 9.9727
+    },
+    "600815.SH": {
+      "count": 1,
+      "max_pct": 9.9715,
+      "recent_pct": 9.9715
+    },
+    "603808.SH": {
+      "count": 1,
+      "max_pct": 9.971,
+      "recent_pct": 9.971
+    },
+    "605069.SH": {
+      "count": 1,
+      "max_pct": 9.9644,
+      "recent_pct": 9.9644
+    },
+    "603101.SH": {
+      "count": 1,
+      "max_pct": 9.9626,
+      "recent_pct": 9.9626
+    },
+    "000626.SZ": {
+      "count": 1,
+      "max_pct": 9.9617,
+      "recent_pct": 9.9617
+    },
+    "000990.SZ": {
+      "count": 1,
+      "max_pct": 9.9602,
+      "recent_pct": 9.9602
+    },
+    "688679.SH": {
+      "count": 1,
+      "max_pct": 9.9593,
+      "recent_pct": 9.9593
+    },
+    "002131.SZ": {
+      "count": 1,
+      "max_pct": 9.9585,
+      "recent_pct": 9.9585
+    },
+    "300547.SZ": {
+      "count": 1,
+      "max_pct": 9.9575,
+      "recent_pct": 9.9575
+    },
+    "600876.SH": {
+      "count": 1,
+      "max_pct": 9.9558,
+      "recent_pct": 9.9558
+    },
+    "002663.SZ": {
+      "count": 1,
+      "max_pct": 9.9548,
+      "recent_pct": 9.9548
+    },
+    "002042.SZ": {
+      "count": 1,
+      "max_pct": 9.9515,
+      "recent_pct": 9.9515
+    },
+    "600186.SH": {
+      "count": 1,
+      "max_pct": 9.9424,
+      "recent_pct": 9.9424
+    },
+    "600115.SH": {
+      "count": 1,
+      "max_pct": 9.9057,
+      "recent_pct": 9.9057
+    },
+    "300373.SZ": {
+      "count": 1,
+      "max_pct": 9.9025,
+      "recent_pct": 9.9025
+    },
+    "000402.SZ": {
+      "count": 1,
+      "max_pct": 9.8814,
+      "recent_pct": 9.8814
+    },
+    "301183.SZ": {
+      "count": 1,
+      "max_pct": 9.8805,
+      "recent_pct": 9.8805
+    },
+    "688171.SH": {
+      "count": 1,
+      "max_pct": 9.8715,
+      "recent_pct": 9.8715
+    },
+    "300624.SZ": {
+      "count": 1,
+      "max_pct": 9.8473,
+      "recent_pct": 9.8473
+    },
+    "688220.SH": {
+      "count": 1,
+      "max_pct": 9.8368,
+      "recent_pct": 9.8368
+    },
+    "002685.SZ": {
+      "count": 1,
+      "max_pct": 9.8291,
+      "recent_pct": 9.8291
+    },
+    "002217.SZ": {
+      "count": 1,
+      "max_pct": 9.8214,
+      "recent_pct": 9.8214
+    },
+    "688118.SH": {
+      "count": 1,
+      "max_pct": 9.8127,
+      "recent_pct": 9.8127
+    },
+    "688228.SH": {
+      "count": 1,
+      "max_pct": 9.8104,
+      "recent_pct": 9.8104
+    },
+    "688239.SH": {
+      "count": 1,
+      "max_pct": 9.7894,
+      "recent_pct": 9.7894
+    },
+    "688669.SH": {
+      "count": 1,
+      "max_pct": 9.7639,
+      "recent_pct": 9.7639
+    },
+    "301123.SZ": {
+      "count": 1,
+      "max_pct": 9.7458,
+      "recent_pct": 9.7458
+    },
+    "603806.SH": {
+      "count": 1,
+      "max_pct": 9.7156,
+      "recent_pct": 9.7156
+    },
+    "300604.SZ": {
+      "count": 1,
+      "max_pct": 9.6907,
+      "recent_pct": 9.6907
+    },
+    "688627.SH": {
+      "count": 1,
+      "max_pct": 9.6749,
+      "recent_pct": 9.6749
+    },
+    "688502.SH": {
+      "count": 1,
+      "max_pct": 9.6715,
+      "recent_pct": 9.6715
+    },
+    "300943.SZ": {
+      "count": 1,
+      "max_pct": 9.6676,
+      "recent_pct": 9.6676
+    },
+    "688107.SH": {
+      "count": 1,
+      "max_pct": 9.6665,
+      "recent_pct": 9.6665
+    },
+    "601126.SH": {
+      "count": 1,
+      "max_pct": 9.6491,
+      "recent_pct": 9.6491
+    },
+    "600531.SH": {
+      "count": 1,
+      "max_pct": 9.6395,
+      "recent_pct": 9.6395
+    },
+    "603061.SH": {
+      "count": 1,
+      "max_pct": 9.6278,
+      "recent_pct": 9.6278
+    },
+    "605178.SH": {
+      "count": 1,
+      "max_pct": 9.5871,
+      "recent_pct": 9.5871
+    },
+    "688017.SH": {
+      "count": 1,
+      "max_pct": 9.582,
+      "recent_pct": 9.582
+    },
+    "688777.SH": {
+      "count": 1,
+      "max_pct": 9.5649,
+      "recent_pct": 9.5649
+    },
+    "301197.SZ": {
+      "count": 1,
+      "max_pct": 9.5579,
+      "recent_pct": 9.5579
+    },
+    "301225.SZ": {
+      "count": 1,
+      "max_pct": 9.5444,
+      "recent_pct": 9.5444
+    },
+    "301068.SZ": {
+      "count": 1,
+      "max_pct": 9.5189,
+      "recent_pct": 9.5189
+    },
+    "300229.SZ": {
+      "count": 1,
+      "max_pct": 9.5072,
+      "recent_pct": 9.5072
+    },
+    "301248.SZ": {
+      "count": 1,
+      "max_pct": 9.5022,
+      "recent_pct": 9.5022
+    }
+  }
+}
